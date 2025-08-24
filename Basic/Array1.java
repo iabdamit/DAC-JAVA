@@ -1,8 +1,6 @@
-
-public class Test {
-
+public class Array1 {
     public static void main(String[] args) {
-        int arr[] = new int[5];
+        int arr[] = new int[5];// ! here 5 is size of array
         arr[0] = 1;
         arr[1] = 2;
         arr[2] = 3;
@@ -12,5 +10,4 @@ public class Test {
             System.out.println(arr[i]);
         }
     }
-
 }
