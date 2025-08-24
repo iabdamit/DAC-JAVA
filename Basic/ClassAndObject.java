@@ -15,8 +15,9 @@ public class ClassAndObject {
         int num1 = 5;
         int num2 = 6;
 
-        Calculator cal = new Calculator(); // ! object created cal is a reference variable and new Calculator is object
-        int result = cal.add(num1, num2);
+        Calculator calcu = new Calculator(); // ! object created cal is a reference variable and new Calculator is
+                                             // object
+        int result = calcu.add(num1, num2);
         // int result = num1 + num2;
         System.out.println(result);
     }
