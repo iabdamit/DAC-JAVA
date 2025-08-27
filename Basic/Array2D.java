@@ -1,4 +1,4 @@
-public class Array3D {
+public class Array2D {
     public static void main(String[] args) {
         int arr[][] = new int[3][]; // ! this is called jagged array
         arr[0] = new int[3]; // ! here i am defining the size of first row
