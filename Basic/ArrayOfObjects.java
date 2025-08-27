@@ -36,8 +36,12 @@ public class ArrayOfObjects {
         objArray[2] = obj3;
         objArray[3] = obj4;
 
-        for (int i = 0; i < objArray.length; i++) {
-            System.out.println(objArray[i].name);
+        // for (int i = 0; i < objArray.length; i++) {
+        // System.out.println(objArray[i].name);
+        // }
+
+        for (ArrayOfObjects arr : objArray) {
+            System.out.println("Name " + arr.name + " Marks " + arr.marks);
         }
 
     }
