@@ -2,7 +2,7 @@ class Switch {
     public static void main(String[] args) {
         String day = "Monday";
 
-        // switch (day) {
+        // switch (day)
         // case "Monday":
         // System.out.println("7am");
         // break;
