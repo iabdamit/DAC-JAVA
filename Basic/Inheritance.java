@@ -1,29 +1,4 @@
-class CalculatorDemo {
-    public int add(int n1, int n2) {
-        return n1 + n2;
-    }
-
-    public int sub(int n1, int n2) {
-        return n1 - n2;
-    }
-}
-
-class AdvanceCalculatorDemo extends CalculatorDemo {
-    public int mul(int n1, int n2) {
-        return n1 * n2;
-    }
-
-    public int div(int n1, int n2) {
-        return n1 / n2;
-    }
-}
-
-class vAdavanceCalculatorDemo extends AdvanceCalculatorDemo {
-    public int power(int n, int n1) {
-
-        return (int) Math.pow(n, n1);
-    }
-}
+import Calculator.*;
 
 public class Inheritance {
     public static void main(String[] args) {
