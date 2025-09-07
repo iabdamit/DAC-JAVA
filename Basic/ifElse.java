@@ -1,5 +1,5 @@
 
-class Computer {
+class ComputerA {
     public void playMusic() {
         System.out.println("Playing music");
     }
@@ -13,7 +13,7 @@ class Computer {
 
 public class ifElse {
     public static void main(String[] args) {
-        Computer cm = new Computer();
+        ComputerA cm = new ComputerA();
         cm.playMusic();
         String result = cm.getMePen(6);
         System.out.println(result);
