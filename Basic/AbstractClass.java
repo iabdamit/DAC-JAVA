@@ -1,21 +1,25 @@
 abstract class Car {
-    public abstract void drive();
+    abstract public void drive();
 
-    public void playMusic() {
-        System.out.println("play music");
+    public void music() {
+        System.out.println("Playing music inside Car class");
     }
+
 }
 
-class GWagon extends Car {
+class Lexus extends Car {
     public void drive() {
-        System.out.println("driving....");
+        System.out.println("Driving Lexus");
     }
 }
 
 public class AbstractClass {
+
     public static void main(String[] args) {
-        Car obj = new GWagon();
+        // ! we cannot create object of abstract class and we cannot create abstract
+        // ! method without abstract class
+        Car obj = new Lexus();
+        obj.music();
         obj.drive();
-        obj.playMusic();
     }
 }
