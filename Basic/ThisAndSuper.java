@@ -30,6 +30,6 @@ public class ThisAndSuper {
     public static void main(String[] args) {
         // Beta b1 = new Beta();
         Beta b1 = new Beta(5);
-
+        System.out.println(b1);
     }
 }
