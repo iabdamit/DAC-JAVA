@@ -1,4 +1,4 @@
-class Calculator {
+class Calculator5 {
     int a; // instance variable
 
     // ! Method
@@ -15,8 +15,8 @@ public class ClassAndObject {
         int num1 = 5;
         int num2 = 6;
 
-        Calculator calcu = new Calculator(); // ! object created cal is a reference variable and new Calculator is
-                                             // object
+        Calculator5 calcu = new Calculator5(); // ! object created cal is a reference variable and new Calculator is
+                                               // object
         int result = calcu.add(num1, num2);
         // int result = num1 + num2;
         System.out.println(result);

@@ -1,4 +1,4 @@
-class Outer {
+class Outer1 {
     public void show() {
         System.out.println("show outer class");
     }
@@ -12,10 +12,10 @@ class Outer {
 
 public class InnerClass {
     public static void main(String[] args) {
-        Outer obj = new Outer();
+        Outer1 obj = new Outer1();
         obj.show();
 
-        Outer.Inner obj2 = obj.new Inner();
+        Outer1.Inner obj2 = obj.new Inner();
 
         // For static inner class, instantiate directly using Outer.Inner
         // Outer.Inner obj3 = new Outer.Inner();
