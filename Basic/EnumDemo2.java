@@ -1,3 +1,5 @@
+//! Macbook,Surface and other are object Laptop4 
+
 enum Laptop4 {
     Macbook(2000), XPS(2200), Surface(1500), ThinkPad(1800);
 
