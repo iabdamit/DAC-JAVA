@@ -1,3 +1,7 @@
+//todo  Three type of interface
+//todo Normal Interface -> two and more than two methods
+//todo Functional Interface -> only one abstract method
+//todo Marker Interface -> Empty Interface
 
 //!  class --> class           extends
 //!  class --> interface       implements

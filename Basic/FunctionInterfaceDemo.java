@@ -1,35 +1,28 @@
 @FunctionalInterface
-// ! functional interface(SAM) only have 1 method
-interface FunctionalA {
-    // void show();
-    int add(int i, int j);
+interface FunctionalIA {
+    // void show(int i);
+    int add(int a, int b);
 }
+// ! functional interface(SAM) only have 1 method
 
-// class FunctionalB {
+// class IB implements FunctionalIA {
 // public void show() {
-// System.out.println("Show Method inside FunctionalB");
+// System.out.println("Inside the show method inside IB class");
 // }
 // }
 
 public class FunctionInterfaceDemo {
     public static void main(String[] args) {
-        // FunctionalA obj = new FunctionalA() {
-        // public void show() {
-        // System.out.println("Anonymous class show Method");
-        // }
-        // };
-        // ! lambda expression only work with functional interface
         // ! lambda expression for show
-        // FunctionalA obj = () -> {
-        // System.out.println("Anonymous class show Method");
-        // };
+        // ! we donot need to write the type of veriable and brackets
+        // FunctionalIA obj1 = i -> System.out.println("Inside anonymous inner class " +
+        // i);
+        // obj1.show(5);
+        // !
+        // FunctionalIA obj = new IB();
         // obj.show();
-
-        // ! one liner lambda expression
-        FunctionalA obj = (i, j) -> i + j;
-
-        int result = obj.add(5, 10);
-        System.out.println(result);
-
+        // ! lambda expression only work with functional interface
+        FunctionalIA obj2 = (a, b) -> a + b;
+        System.out.println(obj2.add(4, 5));
     }
 }
