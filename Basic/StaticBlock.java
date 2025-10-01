@@ -1,3 +1,6 @@
+
+//! A static block is a block of code inside a class, marked with static { ... }.
+//!It runs only once,when the class is loaded into memory by the JVM.
 class StaticBlockDemo {
     int roll;
     static String name;
