@@ -1,3 +1,7 @@
+//todo:  Checked Exception → must handle (either try-catch or throws).
+
+//todo:  Unchecked Exception → optional (compiler doesn’t care), but you can handle it if you want graceful recovery.
+
 //! Throwable class -   Exception class inside exception every exception and Error
 //! every class in java extends object class
 //! Unchecked Exception(Runtime Exception) and Checked Exception 
