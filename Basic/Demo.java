@@ -23,6 +23,9 @@ public class Demo {
     // todo : Switch Statement
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // ! System is a final class having static final variable naming as out which is
+        // ! object of PrintStream and print and println are methods of PrintStream
+        // class.
         System.out.print("Enter n: ");
         int n = scanner.nextInt();
         switch (n) {
