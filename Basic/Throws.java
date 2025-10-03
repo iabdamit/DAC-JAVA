@@ -5,11 +5,9 @@ class MayBeException {
         Class.forName("./Casting.java");
         throw new ClassNotFoundException("Class not found");// ! never reached
     }
-
 }
 
 public class Throws {
-
     static {
         System.out.println("hello");
     }
