@@ -1,20 +1,10 @@
 //todo:  Multiple threads
 
-class TA extends Thread {
-    public void run() {
+class TZ {
 
-        for (int i = 1; i <= 100; i++) {
-            System.out.println("hi");
-            try {
-                Thread.sleep(1);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-    }
 }
 
-class TB extends Thread {
+class TB implements Runnable {
     public void run() {
         for (int i = 1; i <= 100; i++) {
             System.out.println("Hello");
@@ -29,13 +19,37 @@ class TB extends Thread {
 
 public class ThreadDemo {
     public static void main(String[] args) {
-        TA obj1 = new TA();
+        // Runnable obj1 = new Runnable() {
+        // public void run() {
+        // for (int i = 1; i <= 100; i++) {
+        // System.out.println("hi");
+        // try {
+        // Thread.sleep(1);
+        // } catch (Exception e) {
+        // e.printStackTrace();
+        // }
+        // }
+        // }
+        // };
+        Runnable obj1 = () -> {
+            for (int i = 1; i <= 100; i++) {
+                System.out.println("hi");
+                try {
+                    Thread.sleep(1);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+
         TB obj2 = new TB();
 
+        Thread t1 = new Thread(obj1);
+        Thread t2 = new Thread(obj2);
         // todo Priority goes from 1 to 10
-        obj2.setPriority(Thread.MAX_PRIORITY);
-        System.out.println(obj1.getPriority());
-        obj1.start();
-        obj2.start();
+        // obj2.setPriority(Thread.MAX_PRIORITY);
+        // System.out.println(obj1.getPriority());
+        t1.start();
+        t2.start();
     }
 }
