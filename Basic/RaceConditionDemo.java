@@ -39,3 +39,5 @@ public class RaceConditionDemo {
         System.out.println(c.count);
     }
 }
+// ! states of thread
+// ! new -> runable ->running ->wait ->timed waited -> termination
