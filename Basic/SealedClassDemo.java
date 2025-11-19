@@ -1,4 +1,6 @@
-sealed class SCA permits SCB, SCC {
+//! only final,sealed and non sealed class can extend sealed class
+//! for interface only non-sealed and sealed class or interface
+sealed class SCA extends Thread implements Cloneable permits SCB, SCC {
 
 }
 
@@ -25,6 +27,7 @@ non-sealed interface af
 
 public class SealedClassDemo {
     public static void main(String[] args) {
-        SCD obj = new SCD();
+        // SCD obj = new SCD();
+
     }
 }
