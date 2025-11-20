@@ -1,5 +1,5 @@
 
-class Alien {
+class Alien1 {
 
 }
 
@@ -15,7 +15,7 @@ public class Java10 {
         int arr[] = new int[10];
         var arr1 = new int[10];
 
-        Alien obj = new Alien();
-        var obj1 = new Alien();
+        Alien1 obj = new Alien1();
+        var obj1 = new Alien1();
     }
 }
