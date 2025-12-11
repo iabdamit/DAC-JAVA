@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class stringReverse {
 
     public static void reverseString(String name, int lastIndex) {

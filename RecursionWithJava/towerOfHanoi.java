@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class towerOfHanoi {
     public static void towerOfhanoi(int n, String src, String helper, String dest) {
         if (n == 1) {

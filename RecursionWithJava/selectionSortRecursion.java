@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class selectionSortRecursion {
     public static void SelectionSort(int arr[], int size, int index) {
         // Base case: if index reaches size - 1, stop recursion

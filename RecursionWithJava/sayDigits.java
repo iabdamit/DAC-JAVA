@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 import java.util.Scanner;
 
 public class sayDigits {

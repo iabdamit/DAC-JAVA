@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 //! Strings are immutable so we cannot change tham directly
 public class reverseString {
     public static void reverse(char str[], int start, int end) {

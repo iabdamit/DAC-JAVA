@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class test {
 
     public static void permutation(String str, String permutation) {

@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class sum {
     public static int sumsArr(int arr[], int n) {
         if (n == 0) {

@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class mergeSortDemo {
 
     public static void conquer(int arr[], int start, int end) {

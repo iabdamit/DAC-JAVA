@@ -1,4 +1,3 @@
-package RecursionWithJava;
 
 //Todo : First And Last Occurence of character
 public class occOfElement {

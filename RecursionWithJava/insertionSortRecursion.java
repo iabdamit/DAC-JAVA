@@ -1,4 +1,3 @@
-package RecursionWithJava;
 
 public class insertionSortRecursion {
     public static void insertionSort(int arr[], int size) {

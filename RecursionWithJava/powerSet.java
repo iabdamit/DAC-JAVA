@@ -1,4 +1,3 @@
-package RecursionWithJava;
 
 //! power set includes all subset,empty set,original set.
 public class powerSet {

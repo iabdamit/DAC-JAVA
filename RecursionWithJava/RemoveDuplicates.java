@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class RemoveDuplicates {
     // ! In Java, when we create a boolean array, all its elements are automatically
     // ! initialized with false by default.

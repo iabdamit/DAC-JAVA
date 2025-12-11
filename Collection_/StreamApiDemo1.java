@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Arrays;
 
-public class StreamApiDemo {
+public class StreamApiDemo1 {
     public static void main(String[] args) {
         List<Integer> nums = Arrays.asList(4, 5, 7, 3);
 

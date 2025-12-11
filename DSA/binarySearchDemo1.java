@@ -1,5 +1,5 @@
 
-public class binarySearchDemo {
+public class binarySearchDemo1 {
     public static void main(String[] args) {
         int nums[] = { 5, 7, 9, 11, 13 };
         // int nums[] = new int[10000];

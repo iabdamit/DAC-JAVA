@@ -1,4 +1,3 @@
-package RecursionWithJava;
 
 public class MovingChar {
     public static void moveAllX(String str, int count, int index, String newString) {

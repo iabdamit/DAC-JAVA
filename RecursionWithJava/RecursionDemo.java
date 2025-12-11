@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class RecursionDemo {
     // todo : Counting using recursion (reverse and normal)
     // ! tail recursion

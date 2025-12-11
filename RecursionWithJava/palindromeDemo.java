@@ -1,4 +1,3 @@
-package RecursionWithJava;
 
 import java.util.Scanner;
 

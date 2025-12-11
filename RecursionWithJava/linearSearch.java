@@ -1,5 +1,3 @@
-package RecursionWithJava;
-
 public class linearSearch {
     public static int search(int arr[], int size, int key) {
         if (size == 0)
